@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime and Dependency Folders
+node_modules/
+dist/
+build/
+temp/
+.cache/
+
+# Environment Files
+.env
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore local development overrides but allow specific shared settings
+!.vscode/extensions.json
+
+# Ignore compiled files
+*.tsbuildinfo
+
+# Ignore lock files if not needed (optional)
+# package-lock.json
+# yarn.lock
+
+# Server/client specific
+blog-app-client/node_modules/
+blog-app-server/node_modules/
